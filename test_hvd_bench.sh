@@ -8,7 +8,7 @@
 #SBATCH --time 0:30:00
 
 # Setup software
-source ../setup.sh
+source setup.sh
 conda activate tf-2.4.1
 
 export NCCL_DEBUG=INFO
